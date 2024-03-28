@@ -1,0 +1,139 @@
+----
+Adding users and configuring SSH
+----
+$ sudo useradd -m -s /bin/bash dennis
+useradd: user 'dennis' already exists
+$ sudo mkdir -p /home/dennis/.ssh
+$ sudo sh -c 'echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG4rT3vTt99Ox5kndS4HmgTrKBT8SKzhK4rhGkEVGlCI student@generic-vm" >> /home/dennis/.ssh/authorized_keys'
+$ sudo chown -R dennis:dennis /home/dennis/.ssh
+$ sudo chmod 700 /home/dennis/.ssh
+$ sudo chmod 600 /home/dennis/.ssh/authorized_keys
+$ sudo useradd -m -s /bin/bash aubrey
+useradd: user 'aubrey' already exists
+$ sudo mkdir -p /home/aubrey/.ssh
+$ sudo sh -c 'echo "<aubrey's_ssh_key>" >> /home/aubrey/.ssh/authorized_keys'
+./assignment2.sh: eval: line 13: unexpected EOF while looking for matching `"'
+./assignment2.sh: eval: line 14: syntax error: unexpected end of file
+$ sudo chown -R aubrey:aubrey /home/aubrey/.ssh
+$ sudo chmod 700 /home/aubrey/.ssh
+$ sudo chmod 600 /home/aubrey/.ssh/authorized_keys
+chmod: cannot access '/home/aubrey/.ssh/authorized_keys': No such file or directory
+$ sudo useradd -m -s /bin/bash captain
+useradd: user 'captain' already exists
+$ sudo mkdir -p /home/captain/.ssh
+$ sudo sh -c 'echo "<captain's_ssh_key>" >> /home/captain/.ssh/authorized_keys'
+./assignment2.sh: eval: line 13: unexpected EOF while looking for matching `"'
+./assignment2.sh: eval: line 14: syntax error: unexpected end of file
+$ sudo chown -R captain:captain /home/captain/.ssh
+$ sudo chmod 700 /home/captain/.ssh
+$ sudo chmod 600 /home/captain/.ssh/authorized_keys
+chmod: cannot access '/home/captain/.ssh/authorized_keys': No such file or directory
+$ sudo useradd -m -s /bin/bash snibbles
+useradd: user 'snibbles' already exists
+$ sudo mkdir -p /home/snibbles/.ssh
+$ sudo sh -c 'echo "<snibbles's_ssh_key>" >> /home/snibbles/.ssh/authorized_keys'
+./assignment2.sh: eval: line 13: unexpected EOF while looking for matching `"'
+./assignment2.sh: eval: line 14: syntax error: unexpected end of file
+$ sudo chown -R snibbles:snibbles /home/snibbles/.ssh
+$ sudo chmod 700 /home/snibbles/.ssh
+$ sudo chmod 600 /home/snibbles/.ssh/authorized_keys
+chmod: cannot access '/home/snibbles/.ssh/authorized_keys': No such file or directory
+$ sudo useradd -m -s /bin/bash brownie
+useradd: user 'brownie' already exists
+$ sudo mkdir -p /home/brownie/.ssh
+$ sudo sh -c 'echo "<brownie's_ssh_key>" >> /home/brownie/.ssh/authorized_keys'
+./assignment2.sh: eval: line 13: unexpected EOF while looking for matching `"'
+./assignment2.sh: eval: line 14: syntax error: unexpected end of file
+$ sudo chown -R brownie:brownie /home/brownie/.ssh
+$ sudo chmod 700 /home/brownie/.ssh
+$ sudo chmod 600 /home/brownie/.ssh/authorized_keys
+chmod: cannot access '/home/brownie/.ssh/authorized_keys': No such file or directory
+$ sudo useradd -m -s /bin/bash scooter
+useradd: user 'scooter' already exists
+$ sudo mkdir -p /home/scooter/.ssh
+$ sudo sh -c 'echo "<scooter's_ssh_key>" >> /home/scooter/.ssh/authorized_keys'
+./assignment2.sh: eval: line 13: unexpected EOF while looking for matching `"'
+./assignment2.sh: eval: line 14: syntax error: unexpected end of file
+$ sudo chown -R scooter:scooter /home/scooter/.ssh
+$ sudo chmod 700 /home/scooter/.ssh
+$ sudo chmod 600 /home/scooter/.ssh/authorized_keys
+chmod: cannot access '/home/scooter/.ssh/authorized_keys': No such file or directory
+$ sudo useradd -m -s /bin/bash sandy
+useradd: user 'sandy' already exists
+$ sudo mkdir -p /home/sandy/.ssh
+$ sudo sh -c 'echo "<sandy's_ssh_key>" >> /home/sandy/.ssh/authorized_keys'
+./assignment2.sh: eval: line 13: unexpected EOF while looking for matching `"'
+./assignment2.sh: eval: line 14: syntax error: unexpected end of file
+$ sudo chown -R sandy:sandy /home/sandy/.ssh
+$ sudo chmod 700 /home/sandy/.ssh
+$ sudo chmod 600 /home/sandy/.ssh/authorized_keys
+chmod: cannot access '/home/sandy/.ssh/authorized_keys': No such file or directory
+$ sudo useradd -m -s /bin/bash perrier
+useradd: user 'perrier' already exists
+$ sudo mkdir -p /home/perrier/.ssh
+$ sudo sh -c 'echo "<perrier's_ssh_key>" >> /home/perrier/.ssh/authorized_keys'
+./assignment2.sh: eval: line 13: unexpected EOF while looking for matching `"'
+./assignment2.sh: eval: line 14: syntax error: unexpected end of file
+$ sudo chown -R perrier:perrier /home/perrier/.ssh
+$ sudo chmod 700 /home/perrier/.ssh
+$ sudo chmod 600 /home/perrier/.ssh/authorized_keys
+chmod: cannot access '/home/perrier/.ssh/authorized_keys': No such file or directory
+$ sudo useradd -m -s /bin/bash cindy
+useradd: user 'cindy' already exists
+$ sudo mkdir -p /home/cindy/.ssh
+$ sudo sh -c 'echo "<cindy's_ssh_key>" >> /home/cindy/.ssh/authorized_keys'
+./assignment2.sh: eval: line 13: unexpected EOF while looking for matching `"'
+./assignment2.sh: eval: line 14: syntax error: unexpected end of file
+$ sudo chown -R cindy:cindy /home/cindy/.ssh
+$ sudo chmod 700 /home/cindy/.ssh
+$ sudo chmod 600 /home/cindy/.ssh/authorized_keys
+chmod: cannot access '/home/cindy/.ssh/authorized_keys': No such file or directory
+$ sudo useradd -m -s /bin/bash tiger
+useradd: user 'tiger' already exists
+$ sudo mkdir -p /home/tiger/.ssh
+$ sudo sh -c 'echo "<tiger's_ssh_key>" >> /home/tiger/.ssh/authorized_keys'
+./assignment2.sh: eval: line 13: unexpected EOF while looking for matching `"'
+./assignment2.sh: eval: line 14: syntax error: unexpected end of file
+$ sudo chown -R tiger:tiger /home/tiger/.ssh
+$ sudo chmod 700 /home/tiger/.ssh
+$ sudo chmod 600 /home/tiger/.ssh/authorized_keys
+chmod: cannot access '/home/tiger/.ssh/authorized_keys': No such file or directory
+$ sudo useradd -m -s /bin/bash yoda
+useradd: user 'yoda' already exists
+$ sudo mkdir -p /home/yoda/.ssh
+$ sudo sh -c 'echo "<yoda's_ssh_key>" >> /home/yoda/.ssh/authorized_keys'
+./assignment2.sh: eval: line 13: unexpected EOF while looking for matching `"'
+./assignment2.sh: eval: line 14: syntax error: unexpected end of file
+$ sudo chown -R yoda:yoda /home/yoda/.ssh
+$ sudo chmod 700 /home/yoda/.ssh
+$ sudo chmod 600 /home/yoda/.ssh/authorized_keys
+chmod: cannot access '/home/yoda/.ssh/authorized_keys': No such file or directory
+$ sudo usermod -aG sudo dennis
+----
+Configuring network interface
+----
+$ sudo netplan apply
+
+** (generate:3502): WARNING **: 10:21:37.843: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+/etc/netplan/01-netcfg.yaml:9:13: Error in network definition: address '192.168.16.21' is missing /prefixlength
+            - 192.168.16.21
+            ^
+----
+Installing required software
+----
+----
+Configuring firewall
+----
+$ sudo ufw allow OpenSSH
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+$ sudo ufw allow http
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+$ sudo ufw allow 3128
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+$ sudo ufw enable
+Command may disrupt existing ssh connections. Proceed with operation (y|n)? y
+Firewall is active and enabled on system startup
+Script execution completed successfully.

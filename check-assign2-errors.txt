@@ -1,0 +1,3 @@
+Error: Failed deleting instance "server1" in project "default": Failed to create instance delete operation: Instance is busy running a "create" operation
+ssh: connect to host server1-mgmt port 22: No route to host
+lost connection
